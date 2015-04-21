@@ -1,0 +1,30 @@
+header{
+	padding: 10px;
+	font-size: 200%;
+}
+
+body{
+	padding: 10px;
+	margin: 10px;
+	background-color: MintCream;
+}
+form{
+	padding: 10px;
+}
+
+ol li{
+	list-style: none;
+	padding: 5px;
+	padding-bottom: 20px;
+
+}
+
+
+
+.userQuotes div{
+	
+	padding-bottom: 15px;
+
+	
+}
+
