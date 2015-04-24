@@ -5,9 +5,21 @@
     <title>Inspirational Quotes</title>
     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <header>Get Inspired</header>
+
+<div class = "hide">
+  <form id= "rating" class="star-rating">
+  <label>rate your quotes </label>
+    <input class = "storeRating" type="radio" name="rating"  value="1" checked>1 <i></i>
+    <input class = "storeRating" type="radio" name="rating" value="2">2 <i></i>
+    <input class = "storeRating" type="radio" name="rating"  value="3">3 <i></i>
+    <input class = "storeRating" type="radio" name="rating"  value="4">4 <i></i>
+    <input class = "storeRating" type="radio" name="rating"  value="5">5 <i></i>
+  </form></div>
+
 
    <form id="form">
     Add your own quote <div>
@@ -23,13 +35,13 @@
 
   <ol class = "userQuotes">
    
-    <li>"Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference."  –Robert Frost</li>
-    <li>"I attribute my success to this: I never gave or took any excuse." –Florence Nightingale</li>
-    <li>"You miss 100% of the shots you don’t take." –Wayne Gretzky</li>
-    <li>"Life is what happens to you while you’re busy making other plans." –John Lennon</li>
-    <li>"Eighty percent of success is showing up." –Woody Allen</li>
-    <li>"Life is not measured by the number of breaths we take, but by the moments that take our breath away." –Maya Angelou</li>
-    <li>"You can’t fall if you don’t climb.  But there’s no joy in living your whole life on the ground." –Unknown</li>
+    <li>"Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference."  <span class= "a-click">– Robert Frost</span></li>
+    <li>"I attribute my success to this: I never gave or took any excuse." <span class= "a-click" >–Florence Nightingale</span></li>
+    <li>“I swear by my life and my love of it that I will never live for the sake of another man, nor ask another man to live for mine.”  <span class= "a-click" >–Ayn Rand</span></li>
+    <li>"Life is what happens to you while you’re busy making other plans." <span class= "a-click" >–John Lennon</span></li>
+    <li>“Live and act within the limit of your knowledge and keep expanding it to the limit of your life.”  <span class= "a-click" >–Ayn Rand</span></li>
+    <li>"Life is not measured by the number of breaths we take, but by the moments that take our breath away." <span class= "a-click" >–Maya Angelou</span></li>
+    <li>"You can’t fall if you don’t climb.  But there’s no joy in living your whole life on the ground." <span class= "a-click" >–Unknown </span></li>
   </ol>
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

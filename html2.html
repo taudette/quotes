@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Inspirational Quotes</title>
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>Get Inspired</header>
+<!-- this is going to contain all templates which will be hidden -->
+    <div id = "templates">
+      <!-- Templates for quote library -->
+      <div id = "quote-library-tpl">
+      <h2 class="library-name">Library Name</h2>
+        <form class = "new-quote-form">
+          Add your own quote <div>
+          <input class ="text" type="text" name="quote-text" value="">
+          </div>
+          Author<div>
+          <input class= "author" type="text" name="quote-author" value="">
+          </div>
+          <div>
+          <input class = "submit" type="submit" value="submit">
+          </div>
+
+          <label>rate your quotes </label> 
+          <span class = "star-rating">
+            <input class = "storeRating" type="radio" name="quote-rating"  value="1" checked>1 <i></i>
+            <input class = "storeRating" type="radio" name="quote-rating"  value="2">2 <i></i>
+            <input class = "storeRating" type="radio" name="quote-rating"  value="3">3 <i></i>
+            <input class = "storeRating" type="radio" name="quote-rating"  value="4">4 <i></i>
+            <input class = "storeRating" type="radio" name="quote-rating"  value="5">5 <i></i>
+          </span>
+        
+        </form>
+            <button class = "sort-button">Sort Quotes</button>
+        <ul class = "quote-list"></ul>
+      </div>
+
+ <!--      make template for each quote as li to end up in the ul -->
+      <li id = "quote-tpl">
+        <h3 class = "quote-text">Text</h4>
+        <h4 class = "quote-author"> Author </h3> 
+        <em class = "quote-rating"> Rating </em>
+        <button class = "delete"> Delete Quote </button>
+      </li>
+
+
+    </div>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+    <script src="take2.js"></script>
+
+  </body>
+</html>
+
+
